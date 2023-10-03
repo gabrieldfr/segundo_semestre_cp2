@@ -58,3 +58,36 @@ button {
 .login figure {
     margin-left: 200px;
 }
+
+
+/* Responsividade do site */
+@media (max-width: 481px) {
+    .container {
+        max-width: 480px;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    header a {
+        margin: 25px;
+    }
+
+    .login {
+        display: flex;
+        flex-direction: column;
+        padding-left: 95px;
+        margin-top: 23px;
+    }
+
+    button {
+        margin-top: 5px;
+    }
+
+    .login figure {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+
+}
