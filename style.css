@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkred;
+    height: 60px;
+}
+
+header a {
+    color: white;
+    margin: 100px;
+}
+
+
+.login {
+    display: flex;
+    max-width: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.login fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+    border-color: darkred;
+}
+
+button {
+    max-width: 70px;
+    margin-left: 50px;
+    border-color: darkred;
+    height: 30px;
+    background-color: transparent;
+}
+
+.login figure {
+    margin-left: 200px;
+}
